@@ -1,13 +1,6 @@
-#include <iostream>
-using namespace std;
-
-void printHello();
+#include "hello.h"
 
 int main() {
-    cout << "Hello World!\n";
+    printHello();
     return 0;
-}
-
-void printHello() {
-    cout << "Hello World!\n";
 }
